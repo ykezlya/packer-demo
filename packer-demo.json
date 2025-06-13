@@ -11,7 +11,9 @@
     "source_ami": "ami-01f23391a59163da9",
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "packer-nodejs-demo {{timestamp}}"
+    "ami_name": "packer-nodejs-demo {{timestamp}}",
+    "vpc_id": "vpc-0ad4cbf86af2624a1",
+    "subnet_id": "subnet-0e47c3b827e62e57d"
   }],
   "provisioners": [
   {
